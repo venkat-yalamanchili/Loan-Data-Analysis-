@@ -45,6 +45,7 @@ ORDER BY Income DESC;
 
 -- The Business Question: "Calculate the average interest rate for 'Business' loans year over year, and include a running (cumulative) 
 -- average to see if our pricing is trending up or down over time."
+
 WITH YearlyStats AS (
     SELECT 
         Year,
