@@ -163,30 +163,6 @@ The SQL script includes business-driven queries using CTEs, window functions, an
 - **Large-loan DTI comparison:** Defaulter vs non-defaulter DTI is compared for loans above the portfolio average.
 - **Top risky profiles:** `DENSE_RANK()` identifies the top 3 riskiest marital-status and employment-type combinations per income bracket.
 
-## Repository Structure
-
-```text
-Loan-Default-Risk-Analytics/
-├── README.md
-├── PROJECT_REPORT.md
-├── data/
-│   └── Loan_default.csv
-├── docs/
-│   └── Column_Definitions.xlsx
-├── notebooks/
-│   └── loan_analysis.ipynb
-├── sql/
-│   └── loan_analysis.sql
-├── powerbi/
-│   └── loan_analysis.pbix
-├── reports/
-│   └── loan_analysis.pdf
-└── assets/
-    ├── dashboard_1_loan_default_overview.png
-    ├── dashboard_2_applicant_demographics_financial_profile.png
-    └── dashboard_3_financial_risk_metrics.png
-```
-
 ## How to Reproduce
 
 1. **Load the dataset into SQL Server** as a table named `LoanData`.
@@ -239,11 +215,3 @@ Loan-Default-Risk-Analytics/
 - SQL window functions, CTEs, cohort analysis, and ranking
 - Python EDA and statistical validation
 - Business storytelling with actionable risk insights
-
-## Future Enhancements
-
-- Build a machine learning default prediction model with model evaluation metrics.
-- Add row-level security for branch, region, or business-user access control.
-- Add Power BI drillthrough and tooltip pages for deeper borrower analysis.
-- Deploy the report through a Power BI workspace with scheduled refresh monitoring.
-- Create SQL views or stored procedures to standardize business logic before BI consumption.
