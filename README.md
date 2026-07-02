@@ -206,7 +206,7 @@ The SQL script includes business-driven queries using CTEs, window functions, an
 - Add predictive modeling as a future phase to estimate default probability before approval.
 - Create a data quality checklist for consistent date parsing, default encoding, and metric naming.
 
-## Recruiter-Focused Skills Demonstrated
+## Skills Demonstrated
 
 - End-to-end analytics workflow from raw data to executive dashboard
 - SQL Server data source integration with Power BI
