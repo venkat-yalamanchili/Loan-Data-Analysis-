@@ -254,24 +254,6 @@ Average Income = AVERAGE(LoanData[Income])
 4. **Separate exposure and probability.** High-income borrowers have lower risk rates but represent the largest loan exposure.
 5. **Track yearly risk with automated Power BI refresh.** Incremental refresh supports scalable monitoring as new loan records arrive.
 6. **Improve metric governance.** Clearly distinguish within-segment default rate from contribution to total portfolio default rate.
-7. **Move toward predictive analytics.** Use the EDA and SQL findings to build a future default prediction model.
-
-## 11. Assumptions and Limitations
-
-- The analysis is descriptive and does not prove causation.
-- The dataset is assumed to be anonymized and suitable for portfolio-level analysis.
-- Date values were parsed based on the available data format and validated against the year-level dashboard output.
-- Power BI measures should be consistently named so stakeholders can distinguish default rate, default count, and default contribution.
-- Predictive modeling was not included in the current version but is a natural future enhancement.
-
-## 12. Future Enhancements
-
-- Add a machine learning model to estimate borrower default probability.
-- Build drillthrough pages for borrower-level investigation.
-- Add row-level security for business users.
-- Create SQL views or stored procedures for repeatable business logic.
-- Deploy the dashboard to Power BI Service with scheduled refresh monitoring.
-- Add data quality alerts for missing values, duplicate IDs, invalid dates, and schema drift.
 
 ## 13. Conclusion
 
